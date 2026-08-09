@@ -1,8 +1,12 @@
 {
-    "version":"26.7.1",
-    "mandatory":false,
-    "downloadUrl":"",
-    "releaseNotes":[
-        "Initial Release"
-    ]
+  "version": "26.8.0",
+  "mandatory": false,
+  "publishedAt": "2026-08-09T14:30:00+05:30",
+  "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.0/gulabs%20vijay%20tailor%20setup.exe",
+  "fileName": "gulabs vijay tailor setup.exe",
+  "sha256": "PASTE_YOUR_SHA256_HASH_HERE",
+  "releaseNotes": [
+    "New software update system",
+    "Bug fixes and improvements"
+  ]
 }
