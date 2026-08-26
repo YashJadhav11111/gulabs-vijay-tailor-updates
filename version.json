@@ -1,25 +1,74 @@
 {
-  "version": "26.8.4",
+  "version": "26.8.5",
   "mandatory": false,
   "publishedAt": "2026-08-09T14:30:00+05:30",
   "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.0/gulabs.vijay.tailor.setup.exe",
   "fileName": "gulabs vijay tailor setup.exe",
-  "sha256": "1B1CD87D18342E4672A0FB8424E0947CEDD9891FAFDCCC53AADD193C3523667F",
+  "sha256": "5C5D851231BC9EFDB6BF2D5A39B82FDE5C2A6359244265B5F67FD7C7AFD846B5",
   "releaseNotes": [
-   "New Order Management — edit existing orders before completion or delivery, including measurements, garments, items and order cancellation.",
-  "Quick Bill improvements — place orders without measurements and add measurements later when the customer is available.",
-  "Fabric inventory improvements — fabrics can now be selected even when stock is zero or insufficient, with shortages monitored without blocking the order.",
-  "Flexible fabric pricing — change the selling price of fabric during order placement or order editing, with an option to update the saved inventory price.",
-  "Improved garment combinations — added Safari, Two Piece and Jodhpuri Suit as integrated combo garments with their required measurements.",
-  "Multiple Offer Sale — create multiple offer-sale entries with different prices and quantities, customize offer names, and clearly display shirt and pant quantities.",
-  "Improved billing — clearer discount, advance payment, payment method and transfer summaries with improved bill readability.",
-  "Combined bill improvements — choose the required GVT or SC bill format and display fabric units clearly when using the GVT format.",
-  "Improved measurement slips — better measurement arrangement, clearer spacing and improved urgent-order visibility.",
-  "Improved customer and order workflow — better measurement handling, order history and activity tracking for greater transparency.",
-  "Improved bill typography — slightly larger, clearer text while preserving proper alignment and preventing overflow.",
-  "Improved startup experience — the application now starts maximized and can launch automatically with Windows.",
-  "Improved customer data entry — customer and organization names are automatically formatted with proper capitalization.",
-  "Improved order and inventory integration — better coordination between inventory, suppliers, orders and billing.",
-  "Bug fixes, stability improvements and UI refinements."
+   # 🧵 GULAB'S VIJAY TAILOR
+
+## **Version 2.8.5 — Major Billing & Measurement Update**
+
+A major update focused on **smarter billing, flexible packages, payment tracking, and better measurement slips.**
+
+### 🆕 Fabric + Stitching Package
+
+* Added **Fabric + Stitching** as a billing-stage package.
+* Apply it to the **existing order** while preparing the GVT bill.
+* Set a single package selling price for the complete order.
+* Automatically calculates:
+
+  * **Original Price**
+  * **Package Selling Price**
+  * **Saved Amount**
+* Shows the detailed garment quantities and rates on the GVT bill.
+* **GVT billing only** — SC fabric billing remains completely independent.
+
+### 💰 SC Paid & GVT Paid
+
+* Added separate **SC Paid** and **GVT Paid** options during billing.
+* Mark either bill as fully paid independently.
+* Both can be marked paid when required.
+* Existing **PAID** functionality remains supported.
+
+### 👕 Trial Measurement Printing
+
+* You can now choose how many garments to print on the measurement slip.
+* Example: **3 Shirts ordered → print only 1 Shirt for trial.**
+* Trial quantity affects **only the printed slip**, not the actual order quantity.
+* The slip continues using the existing garment block/layout.
+
+### 📏 Measurement Formatting Improvements
+
+* Improved fractional measurement display.
+* Measurements such as:
+
+  * `0.25` → **¼**
+  * `0.50` → **½**
+  * `0.75` → **¾**
+* Prevents incorrect formats such as **0 ½**.
+* Improved consistency between measurement screens and printed slips.
+
+### 🧾 Billing & Order Improvements
+
+* Fabric + Stitching is now correctly treated as a **billing package**, rather than an additional garment.
+* Existing order garments remain unchanged when applying the package.
+* Improved package handling when reopening/managing orders.
+* SC billing and pricing remain protected from GVT package pricing.
+
+### 🔧 Stability & Performance
+
+* Expanded automated test coverage.
+* **933 tests passing**
+* Windows release build verified successfully.
+* No new Flutter analyzer issues introduced.
+
+---
+
+### **Version 2.8.5**
+
+**Smarter Packages • Flexible Billing • Better Payments • Better Measurements**
+
   ]
 }
