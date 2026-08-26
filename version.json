@@ -1,25 +1,23 @@
 {
-  "version": "26.8.5",
-  "mandatory": false,
-  "publishedAt": "2026-08-09T14:30:00+05:30",
-  "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.0/gulabs.vijay.tailor.setup.exe",
+  "version": "2.8.5",
+  "publishedAt": "2026-08-26T16:55:00+05:30",
+  "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v2.8.5/gulabs.vijay.tailor.setup.exe",
   "fileName": "gulabs vijay tailor setup.exe",
   "sha256": "5C5D851231BC9EFDB6BF2D5A39B82FDE5C2A6359244265B5F67FD7C7AFD846B5",
-  "releaseNotes": ["
-  ## v2.8.5
-
-### What's New
-- Added **Fabric + Stitching** billing package for GVT bills.
-- Added separate **SC Paid / GVT Paid** payment options.
-- Added **trial quantity selection** for measurement-slip printing.
-- Improved measurement fraction formatting (`¼`, `½`, `¾`).
-- Fixed incorrect `0` display in fractional measurements.
-- Improved measurement slip and billing workflow.
-- Improved order/package handling and billing calculations.
-- Added additional tests and stability improvements.
-
-### Build
-- Windows Release build verified successfully.
-- 933 tests passing."
+  "releaseNotes": [
+    "## v2.8.5",
+    "",
+    "### What's New",
+    "- Added Fabric + Stitching billing package for GVT bills.",
+    "- Added separate SC Paid / GVT Paid payment options.",
+    "- Added trial quantity selection for measurement-slip printing.",
+    "- Improved measurement fraction formatting (¼, ½, ¾).",
+    "- Fixed incorrect 0 display in fractional measurements.",
+    "- Improved order management, billing, and measurement workflows.",
+    "- Added additional tests and stability improvements.",
+    "",
+    "### Build",
+    "- Windows Release build verified successfully.",
+    "- 933 tests passing."
   ]
 }
