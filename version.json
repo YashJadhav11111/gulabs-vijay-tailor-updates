@@ -5,70 +5,21 @@
   "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.0/gulabs.vijay.tailor.setup.exe",
   "fileName": "gulabs vijay tailor setup.exe",
   "sha256": "5C5D851231BC9EFDB6BF2D5A39B82FDE5C2A6359244265B5F67FD7C7AFD846B5",
-  "releaseNotes": [
-   # 🧵 GULAB'S VIJAY TAILOR
+  "releaseNotes": ["
+  ## v2.8.5
 
-## **Version 2.8.5 — Major Billing & Measurement Update**
+### What's New
+- Added **Fabric + Stitching** billing package for GVT bills.
+- Added separate **SC Paid / GVT Paid** payment options.
+- Added **trial quantity selection** for measurement-slip printing.
+- Improved measurement fraction formatting (`¼`, `½`, `¾`).
+- Fixed incorrect `0` display in fractional measurements.
+- Improved measurement slip and billing workflow.
+- Improved order/package handling and billing calculations.
+- Added additional tests and stability improvements.
 
-A major update focused on **smarter billing, flexible packages, payment tracking, and better measurement slips.**
-
-### 🆕 Fabric + Stitching Package
-
-* Added **Fabric + Stitching** as a billing-stage package.
-* Apply it to the **existing order** while preparing the GVT bill.
-* Set a single package selling price for the complete order.
-* Automatically calculates:
-
-  * **Original Price**
-  * **Package Selling Price**
-  * **Saved Amount**
-* Shows the detailed garment quantities and rates on the GVT bill.
-* **GVT billing only** — SC fabric billing remains completely independent.
-
-### 💰 SC Paid & GVT Paid
-
-* Added separate **SC Paid** and **GVT Paid** options during billing.
-* Mark either bill as fully paid independently.
-* Both can be marked paid when required.
-* Existing **PAID** functionality remains supported.
-
-### 👕 Trial Measurement Printing
-
-* You can now choose how many garments to print on the measurement slip.
-* Example: **3 Shirts ordered → print only 1 Shirt for trial.**
-* Trial quantity affects **only the printed slip**, not the actual order quantity.
-* The slip continues using the existing garment block/layout.
-
-### 📏 Measurement Formatting Improvements
-
-* Improved fractional measurement display.
-* Measurements such as:
-
-  * `0.25` → **¼**
-  * `0.50` → **½**
-  * `0.75` → **¾**
-* Prevents incorrect formats such as **0 ½**.
-* Improved consistency between measurement screens and printed slips.
-
-### 🧾 Billing & Order Improvements
-
-* Fabric + Stitching is now correctly treated as a **billing package**, rather than an additional garment.
-* Existing order garments remain unchanged when applying the package.
-* Improved package handling when reopening/managing orders.
-* SC billing and pricing remain protected from GVT package pricing.
-
-### 🔧 Stability & Performance
-
-* Expanded automated test coverage.
-* **933 tests passing**
-* Windows release build verified successfully.
-* No new Flutter analyzer issues introduced.
-
----
-
-### **Version 2.8.5**
-
-**Smarter Packages • Flexible Billing • Better Payments • Better Measurements**
-
+### Build
+- Windows Release build verified successfully.
+- 933 tests passing."
   ]
 }
