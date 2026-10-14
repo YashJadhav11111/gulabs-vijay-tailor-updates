@@ -1,23 +1,17 @@
 {
-  "version": "2.8.6",
-  "publishedAt": "2026-08-26T16:55:00+05:30",
-  "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v2.8.5/gulabs.vijay.tailor.setup.exe",
-  "fileName": "gulabs vijay tailor setup.exe",
-  "sha256": "0DEFFACDFECA9C09ADC003273E54945BD464D72485C69C0768E2478B4EA3DB69",
+  "version": "26.8.8",
+  "mandatory": false,
+  "publishedAt": "2026-10-14T09:03:20Z",
+  "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.8/gulabs.vijay.tailor.setup.exe",
+  "fileName": "gulabs.vijay.tailor.setup.exe",
+  "sha256": "A34C3679F9F9D824A76F032B6DFEAEE533005E0417BA92E442E51684B9D149E0",
   "releaseNotes": [
-    "## v2.8.5",
-    "",
-    "### What's New",
-    "- Added Fabric + Stitching billing package for GVT bills.",
-    "- Added separate SC Paid / GVT Paid payment options.",
-    "- Added trial quantity selection for measurement-slip printing.",
-    "- Improved measurement fraction formatting (¼, ½, ¾).",
-    "- Fixed incorrect 0 display in fractional measurements.",
-    "- Improved order management, billing, and measurement workflows.",
-    "- Added additional tests and stability improvements.",
-    "",
-    "### Build",
-    "- Windows Release build verified successfully.",
-    "- 933 tests passing."
+    "## v26.8.8",
+    "- Fixed: customers past the 500th were saved but missing from the Customers list and search. Every customer now appears; no record was changed.",
+    "- Package billing restored: Confirm Bill > PRICING > One Price for Whole Order. Reopened package orders keep their agreed price.",
+    "- New SC/GVT payment options: SC FIRST, GVT FIRST, SC PAID, GVT PAID.",
+    "- New fabric selection workspace; the stock warning while choosing fabric is removed (the after-save shortage warning remains).",
+    "- Sleeve Gheer is one figure; Half Sleeve added. Measurement slip layout updated.",
+    "- The order-screen Sale Offer button is now labelled 'fabric + stitching'."
   ]
 }
