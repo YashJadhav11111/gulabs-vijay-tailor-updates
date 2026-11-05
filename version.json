@@ -1,15 +1,16 @@
 {
-  "version": "26.8.9",
-  "mandatory": false,
-  "publishedAt": "2026-10-25T10:27:29Z",
-  "downloadUrl": "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.9/gulabs.vijay.tailor.setup.exe",
-  "fileName": "gulabs.vijay.tailor.setup.exe",
-  "sha256": "14B0913A475CC04E6A6C191299AC038B97FE994718310AD512536FBD9C9AF3C0",
-  "releaseNotes": [
-    "## v26.8.9",
-    "- New: every measurement print includes a customer slip: ID NO (large), each garment with its quantity circled, and the balance still owed (left off when fully paid).",
-    "- Where it prints: 1 garment -> 2nd block; 2 garments -> 3rd block; 3 garments -> a second sheet. Measurement blocks are unchanged.",
-    "- Fixed: measurement slips printed lighter than bills. They now print through the same Canon XPS printer as bills.",
-    "- Everything else is the same as v26.8.8."
-  ]
+    "version":  "26.8.10",
+    "mandatory":  false,
+    "publishedAt":  "2026-11-05T05:25:04Z",
+    "downloadUrl":  "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.10/gulabs.vijay.tailor.setup.exe",
+    "fileName":  "gulabs.vijay.tailor.setup.exe",
+    "sha256":  "08536B638150433158CA5173D4B3E6E820AC46362B9F324C1A1E789DA9CDC9A0",
+    "releaseNotes":  [
+                         "## v26.8.10",
+                         "- Canvas Type \"Front Bookstrip\" is now \"Boxtrip\". Old orders show and print as Boxtrip; saved orders are not changed.",
+                         "- Customer list: highest customer number at the top, with \"Total Customers: N\" shown above the list.",
+                         "- Unfinished orders are saved automatically and can be resumed after switching customer or closing the app.",
+                         "- Kurta has three cuts (Kurta, Short Kurta, Apple Cut Kurta); shirt slips say \"Full Shirt\" on a mixed sleeve line.",
+                         "- Safety: customers and bills that have orders or payments can no longer be deleted; saving an order can no longer undo a later payment."
+                     ]
 }
