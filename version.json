@@ -1,16 +1,15 @@
 {
-    "version":  "26.8.12",
+    "version":  "26.8.13",
     "mandatory":  false,
-    "publishedAt":  "2026-11-22T11:35:23Z",
-    "downloadUrl":  "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.12/gulabs.vijay.tailor.setup.exe",
+    "publishedAt":  "2026-11-22T13:52:43Z",
+    "downloadUrl":  "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.13/gulabs.vijay.tailor.setup.exe",
     "fileName":  "gulabs.vijay.tailor.setup.exe",
-    "sha256":  "96EA1DC6C0F286E8108C78764BB5B2BFD7ED6222FCA274A248DB7627091A5D9C",
+    "sha256":  "FB11C5B4EDF883A17A877DBF1EEC8FDF65E1F48FE9D33942AD98E9CFFA2D2DF0",
     "releaseNotes":  [
-                         "## v26.8.12",
-                         "- Saved measurements: New Order saves them only when the order is placed; Manage Order always saves edited values. Only changed fields are written.",
-                         "- Manage Order shows Bill total, Received, Balance and Credit; credit is kept in the order history.",
-                         "- Customer search by ID, full phone, +91 and part of a phone, or name (small typos tolerated).",
-                         "- Add Customer location is one type-to-search box; Close Shirt, Police Uniform and Two Piece garment types.",
-                         "- Bill print is larger (155 x 227 mm); the slip after Confirm Bill shows the real balance."
+                         "## v26.8.13",
+                         "- Choose which UPI account received the money (Suryawanshi Collection, Gulab Tailor Malegaon, Gulabs Vijay Tailor), with this month's total shown for each.",
+                         "- Dashboard UPI Accounts: monthly total per account and a printable statement.",
+                         "- Custom measurement for one piece of any garment; regular measurements stay as they were.",
+                         "- Deleting a customer also deletes their orders, bills, payments and measurements."
                      ]
 }
