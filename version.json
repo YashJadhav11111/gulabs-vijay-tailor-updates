@@ -1,16 +1,16 @@
 {
-    "version":  "26.8.10",
+    "version":  "26.8.12",
     "mandatory":  false,
-    "publishedAt":  "2026-11-05T05:25:04Z",
-    "downloadUrl":  "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.10/gulabs.vijay.tailor.setup.exe",
+    "publishedAt":  "2026-11-22T11:35:23Z",
+    "downloadUrl":  "https://github.com/YashJadhav11111/gulabs-vijay-tailor-updates/releases/download/v26.8.12/gulabs.vijay.tailor.setup.exe",
     "fileName":  "gulabs.vijay.tailor.setup.exe",
-    "sha256":  "08536B638150433158CA5173D4B3E6E820AC46362B9F324C1A1E789DA9CDC9A0",
+    "sha256":  "96EA1DC6C0F286E8108C78764BB5B2BFD7ED6222FCA274A248DB7627091A5D9C",
     "releaseNotes":  [
-                         "## v26.8.10",
-                         "- Canvas Type \"Front Bookstrip\" is now \"Boxtrip\". Old orders show and print as Boxtrip; saved orders are not changed.",
-                         "- Customer list: highest customer number at the top, with \"Total Customers: N\" shown above the list.",
-                         "- Unfinished orders are saved automatically and can be resumed after switching customer or closing the app.",
-                         "- Kurta has three cuts (Kurta, Short Kurta, Apple Cut Kurta); shirt slips say \"Full Shirt\" on a mixed sleeve line.",
-                         "- Safety: customers and bills that have orders or payments can no longer be deleted; saving an order can no longer undo a later payment."
+                         "## v26.8.12",
+                         "- Saved measurements: New Order saves them only when the order is placed; Manage Order always saves edited values. Only changed fields are written.",
+                         "- Manage Order shows Bill total, Received, Balance and Credit; credit is kept in the order history.",
+                         "- Customer search by ID, full phone, +91 and part of a phone, or name (small typos tolerated).",
+                         "- Add Customer location is one type-to-search box; Close Shirt, Police Uniform and Two Piece garment types.",
+                         "- Bill print is larger (155 x 227 mm); the slip after Confirm Bill shows the real balance."
                      ]
 }
